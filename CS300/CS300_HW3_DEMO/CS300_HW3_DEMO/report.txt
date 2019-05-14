@@ -1,0 +1,2 @@
+python code for drawing graphs: https://colab.research.google.com/drive/1MGx281dkW3iNA0Q0kDZACkVFEhUYA8wN
+image of graphs: https://i.gyazo.com/622799a0b1339434000d3afb4ac8d70a.png

@@ -1,0 +1,20 @@
+<lecture>
+	<name>CS201</name>
+	<capacity>5</capacity>
+</lecture>
+<lecture>
+	<name>CS204</name>
+	<capacity>2</capacity>
+</lecture>
+<lecture>
+	<name>CS300</name>
+	<capacity>3</capacity>
+</lecture>
+<lecture>
+	<name>CS303</name>
+	<capacity>1</capacity>
+</lecture>
+<lecture>
+	<name>CS408</name>
+	<capacity>5</capacity>
+</lecture>

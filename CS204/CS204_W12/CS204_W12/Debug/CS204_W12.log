@@ -1,0 +1,22 @@
+﻿Build started 12/13/2018 4:27:39 PM.
+     1>Project "c:\Users\Roy\documents\visual studio 2012\Projects\CS204_W12\CS204_W12\CS204_W12.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CS204Lab12_Student\except_types.cpp
+         except_types.cpp
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w12\cs204_w12\cs204lab12_student\except_types.cpp(10): warning C4101: 'c' : unreferenced local variable
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w12\cs204_w12\cs204lab12_student\except_types.cpp(13): warning C4101: 'd' : unreferenced local variable
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w12\cs204_w12\cs204lab12_student\except_types.cpp(16): warning C4101: 'f' : unreferenced local variable
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w12\cs204_w12\cs204lab12_student\except_types.cpp(19): warning C4101: 'si' : unreferenced local variable
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w12\cs204_w12\cs204lab12_student\except_types.cpp(22): warning C4101: 'i' : unreferenced local variable
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w12\cs204_w12\cs204lab12_student\except_types.cpp(25): warning C4101: 'i' : unreferenced local variable
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w12\cs204_w12\cs204lab12_student\except_types.cpp(28): warning C4101: 'i' : unreferenced local variable
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w12\cs204_w12\cs204lab12_student\except_types.cpp(31): warning C4101: 'i' : unreferenced local variable
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w12\cs204_w12\cs204lab12_student\except_types.cpp(34): warning C4101: 'i' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\roy\documents\visual studio 2012\Projects\CS204_W12\Debug\CS204_W12.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\roy\documents\visual studio 2012\Projects\CS204_W12\Debug\CS204_W12.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\roy\documents\visual studio 2012\Projects\CS204_W12\Debug\CS204_W12.lib" /MACHINE:X86 Debug\except_types.obj
+         CS204_W12.vcxproj -> c:\users\roy\documents\visual studio 2012\Projects\CS204_W12\Debug\CS204_W12.exe
+     1>Done Building Project "c:\Users\Roy\documents\visual studio 2012\Projects\CS204_W12\CS204_W12\CS204_W12.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.82

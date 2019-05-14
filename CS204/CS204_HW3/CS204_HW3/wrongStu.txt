@@ -1,0 +1,5 @@
+<student>
+	<name>Mustafa Kemal Tas</id>
+	<id>16755</id>
+	<lecture>CS201</lecture>
+</student>

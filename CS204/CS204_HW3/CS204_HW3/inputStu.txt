@@ -1,0 +1,16 @@
+<student>
+	<name>Mustafa Kemal Tas</name>
+	<id>16755</id>
+	<lecture>CS201</lecture>
+	<lecture>CS204</lecture>
+	<lecture>CS303</lecture>
+</student>
+
+<student>
+	<name>Kamer Kaya</name>
+	<id>18961</id>
+	<lecture>CS204</lecture>
+	<lecture>CS408</lecture>
+	<lecture>CS303</lecture>
+	<lecture>CS517</lecture>
+</student>

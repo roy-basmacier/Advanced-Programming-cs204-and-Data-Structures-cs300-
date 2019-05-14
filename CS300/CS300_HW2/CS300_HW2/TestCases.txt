@@ -1,0 +1,38 @@
+Not using Binery search: -40
+--------------------------------
+TestCase1 (10p)
+command: 1
+word: DrOp
+output: düþmek or dusmek 
+--------------------------------
+TestCase2 (30p)
+command: 1
+word: worker
+output: iþçi, emekçi, amele or isci, emekci, amele 
+--------------------------------
+TestCase3 (30p)
+command: 2
+word: tes
+output: word does not exist
+command: 2
+word: test
+translation: sinav
+command: 1
+word: test
+output: deneme, sinav
+--------------------------------
+TestCase4 (30p)
+command: 3
+word: yet
+output: word exist
+command: 3
+word: trigger
+translation: tetik
+command: 2
+word: trigger
+translation: sinav, deklansor
+command: 1
+word: trigger
+output: tetik, deklansor
+--------------------------------
+						

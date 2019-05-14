@@ -1,0 +1,24 @@
+snow	kar
+door	kapi
+picture	resim
+road	yol
+time	zaman
+guess	tahmin etmek
+face	yuz
+gold	altin
+deep	derin
+tool	alet
+row	satir
+wall	duvar
+river	nehir
+art	sanat
+sing	sarki soylemek
+circle	cember
+letter	mektup
+soft	yumusak
+children	cocuklar
+good	guzel
+soon	yakinda
+yes	evet
+inside	icinde
+like	begenmek

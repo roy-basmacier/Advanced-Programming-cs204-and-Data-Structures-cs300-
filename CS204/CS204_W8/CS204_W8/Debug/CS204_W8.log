@@ -1,0 +1,76 @@
+﻿Build started 11/15/2018 5:32:47 PM.
+     1>Project "c:\Users\Roy\documents\visual studio 2012\Projects\CS204_W8\CS204_W8\CS204_W8.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CS204Lab8_Student\TemplatedVector\Main.cpp CS204Lab8_Student\TemplatedVector\MyVector.cpp
+         MyVector.cpp
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\myvector.cpp(16): error C2995: 'MyVector<T>::MyVector(void)' : function template has already been defined
+                 c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\myvector.h(13) : see declaration of 'MyVector<T>::MyVector'
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\myvector.cpp(28): error C2995: 'MyVector<T>::MyVector(int,T)' : function template has already been defined
+                 c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\myvector.h(14) : see declaration of 'MyVector<T>::MyVector'
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\myvector.cpp(39): error C2995: 'void MyVector<T>::display(void)' : function template has already been defined
+                 c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\myvector.h(17) : see declaration of 'MyVector<T>::display'
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\myvector.cpp(48): error C2995: 'void MyVector<T>::increaseElements(T)' : function template has already been defined
+                 c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\myvector.h(18) : see declaration of 'MyVector<T>::increaseElements'
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\myvector.cpp(56): error C2995: 'MyVector<T>::~MyVector(void)' : function template has already been defined
+                 c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\myvector.h(15) : see declaration of 'MyVector<T>::~MyVector'
+         Main.cpp
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(17): error C2065: 'User' : undeclared identifier
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(17): error C2275: 'std::string' : illegal use of this type as an expression
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(2300) : see declaration of 'std::string'
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(17): error C3861: 'user1': identifier not found
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(18): error C2065: 'User' : undeclared identifier
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(18): error C2275: 'std::string' : illegal use of this type as an expression
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(2300) : see declaration of 'std::string'
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(18): error C3861: 'user2': identifier not found
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(21): error C2065: 'user1' : undeclared identifier
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(21): error C2228: left of '.displayVector' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(22): error C2065: 'user2' : undeclared identifier
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(22): error C2228: left of '.displayVector' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(24): error C2065: 'user2' : undeclared identifier
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(24): error C2228: left of '.add' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(27): error C2065: 'user1' : undeclared identifier
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(27): error C2228: left of '.displayVector' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(28): error C2065: 'user2' : undeclared identifier
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(28): error C2228: left of '.displayVector' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(33): error C2065: 'user1' : undeclared identifier
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(33): error C2228: left of '.displayVector' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(34): error C2065: 'user2' : undeclared identifier
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(34): error C2228: left of '.displayVector' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(41): error C2065: 'User' : undeclared identifier
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(41): error C2062: type 'int' unexpected
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(42): error C2065: 'User' : undeclared identifier
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(42): error C2062: type 'int' unexpected
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(45): error C2065: 'user3' : undeclared identifier
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(45): error C2228: left of '.displayVector' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(46): error C2065: 'user4' : undeclared identifier
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(46): error C2228: left of '.displayVector' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(51): error C2065: 'user3' : undeclared identifier
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(51): error C2228: left of '.displayVector' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(52): error C2065: 'user4' : undeclared identifier
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(52): error C2228: left of '.displayVector' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(54): error C2065: 'user4' : undeclared identifier
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(54): error C2228: left of '.add' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(57): error C2065: 'user3' : undeclared identifier
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(57): error C2228: left of '.displayVector' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(58): error C2065: 'user4' : undeclared identifier
+     1>c:\users\roy\documents\visual studio 2012\projects\cs204_w8\cs204_w8\cs204lab8_student\templatedvector\main.cpp(58): error C2228: left of '.displayVector' must have class/struct/union
+                 type is ''unknown-type''
+         Generating Code...
+     1>Done Building Project "c:\Users\Roy\documents\visual studio 2012\Projects\CS204_W8\CS204_W8\CS204_W8.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.95

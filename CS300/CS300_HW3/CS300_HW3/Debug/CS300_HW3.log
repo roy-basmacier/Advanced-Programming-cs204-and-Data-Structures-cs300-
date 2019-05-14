@@ -1,0 +1,50 @@
+﻿Build started 5/13/2019 4:41:57 PM.
+     1>Project "C:\Users\Roy\documents\visual studio 2012\Projects\CS300_HW3\CS300_HW3\CS300_HW3.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BinarySearchTree.cpp roy_basmacier_roy_hw3.cpp HashTable.cpp
+         HashTable.cpp
+         roy_basmacier_roy_hw3.cpp
+     1>c:\users\roy\documents\visual studio 2012\projects\cs300_hw3\cs300_hw3\roy_basmacier_roy_hw3.cpp(67): warning C4101: 'node' : unreferenced local variable
+     1>c:\users\roy\documents\visual studio 2012\projects\cs300_hw3\cs300_hw3\hashtable.cpp(133): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\roy\documents\visual studio 2012\projects\cs300_hw3\cs300_hw3\hashtable.cpp(130) : while compiling class template member function 'int HashTable<K,V>::hash(K)'
+                 with
+                 [
+                     K=std::string,
+                     V=std::string
+                 ]
+                 c:\users\roy\documents\visual studio 2012\projects\cs300_hw3\cs300_hw3\hashtable.cpp(124) : see reference to function template instantiation 'int HashTable<K,V>::hash(K)' being compiled
+                 with
+                 [
+                     K=std::string,
+                     V=std::string
+                 ]
+                 c:\users\roy\documents\visual studio 2012\projects\cs300_hw3\cs300_hw3\hashtable.cpp(32) : while compiling class template member function 'HashTable<K,V>::HashTable(int,double,tableNode<K,V> *)'
+                 with
+                 [
+                     K=std::string,
+                     V=std::string
+                 ]
+                 c:\users\roy\documents\visual studio 2012\projects\cs300_hw3\cs300_hw3\roy_basmacier_roy_hw3.cpp(117) : see reference to function template instantiation 'HashTable<K,V>::HashTable(int,double,tableNode<K,V> *)' being compiled
+                 with
+                 [
+                     K=std::string,
+                     V=std::string
+                 ]
+                 c:\users\roy\documents\visual studio 2012\projects\cs300_hw3\cs300_hw3\roy_basmacier_roy_hw3.cpp(117) : see reference to class template instantiation 'HashTable<K,V>' being compiled
+                 with
+                 [
+                     K=std::string,
+                     V=std::string
+                 ]
+         BinarySearchTree.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Roy\documents\visual studio 2012\Projects\CS300_HW3\Debug\CS300_HW3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Roy\documents\visual studio 2012\Projects\CS300_HW3\Debug\CS300_HW3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Roy\documents\visual studio 2012\Projects\CS300_HW3\Debug\CS300_HW3.lib" /MACHINE:X86 Debug\BinarySearchTree.obj
+         Debug\roy_basmacier_roy_hw3.obj
+         Debug\HashTable.obj
+         CS300_HW3.vcxproj -> C:\Users\Roy\documents\visual studio 2012\Projects\CS300_HW3\Debug\CS300_HW3.exe
+     1>Done Building Project "C:\Users\Roy\documents\visual studio 2012\Projects\CS300_HW3\CS300_HW3\CS300_HW3.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.43
