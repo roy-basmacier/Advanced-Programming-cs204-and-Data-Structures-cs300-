@@ -69,9 +69,14 @@ void print(MinHeap<Worker> &mh)
 int main()
 {
 	ifstream input;
-	string filename = "testJobs.txt";
+	ofstream output;
+	string filename;
+	cout << "Enter filename: ";
+	cin >> filename;
+	filename +=".txt"; // adding .txt to the end
 	input.open(filename.c_str());
-
+	filename += ".out"; // adding .out to the end
+	output.open(filename.c_str());
 	string line;
 
 	// first line number of workers
@@ -106,7 +111,7 @@ int main()
 		Job *j = new Job;
 		jobs.dequeue(*j);
 		heapArr[i].jptr = j;
-		cout << "Job-" << j->jobID << "->Worker-" << heapArr[i].workerID << " (Day: "<< time << ")\n"; 
+		output << "Job-" << j->jobID << "->Worker-" << heapArr[i].workerID << " (Day: "<< time << ")\n"; 
 	}
 
 	MinHeap<Worker> workers(heapArr, numOfWorkers);
@@ -121,7 +126,7 @@ int main()
 
 		Job *j = new Job;
 		jobs.dequeue(*j);
-		cout << "Job-" << j->jobID << "->Worker-" << w->workerID << " (Day: "<< time << ")\n"; 
+		output << "Job-" << j->jobID << "->Worker-" << w->workerID << " (Day: "<< time << ")\n"; 
 		w->jptr = j;
 		workers.insert(*w);
 	}
@@ -137,6 +142,6 @@ int main()
 
 	}
 
-	cout << "All jobs are completed in "<< time << " days.\n";
+	output << "All jobs are completed in "<< time << " days.\n";
 	return 0;
 }
